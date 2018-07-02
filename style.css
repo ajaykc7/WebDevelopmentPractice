@@ -1,0 +1,20 @@
+#main{
+  background-color: rgba(175,177,181,0.4);
+  justify-content: center;
+  font-family: 'Tangerine' , 'Inconsolata';
+  font-size: 2em;
+}
+#title{
+  text-align: center;
+}
+#image-div{
+  background-color: white;
+}
+#image{
+  width: 100%;
+}
+
+.timeline{
+  padding-left: 3em;
+  font-size:1em;
+}
