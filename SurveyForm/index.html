@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Build a Survey Form</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main-container">
+            <header class="header">
+                <h1 id="title">Survey Form</h1>
+                <p id="description">This survey is a copy from freeCodeCamp project</p>
+            </header> 
+            <div class="form-container">
+                <form id="survey-form">
+                    <p> Let us know how we can improve freeCodeCamp</p>
+                    <label for="name-label">* Name:</label>
+                    <input type="text" id="name-label" name="name" placeholder="Enter your name">
+                    <br>
+                    <label for="email-label">* Email:</label>
+                    <input type="text" id="email-label" name="email" placeholder="Enter your email">
+                    <br>
+                    <label for="age-number">* Age:</label>
+                    <input type="number" id="age-number" name="age" placeholder="Age">
+                    <br>
+                    <label for="dropdown"> Which options best describes your current role?</label>
+                    <select id="dropdown">
+                        <option value="student">Student</option>
+                        <option value="ftLearner">Full Time Learner</option>
+                        <option value="ftJob">Full Time Job</option>
+                        <option value="na">Prefer not to say</option>
+                        <option value="other">Others</option>
+                    </select>
+                    <br>
+                    <label for="radiobutton">* How likely is that you would recommend free CodeCamp to
+                        a friend
+                    </label>
+                    <input type="radio" id="radiobutton" name="recommend">
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
