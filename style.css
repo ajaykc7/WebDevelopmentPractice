@@ -17,4 +17,6 @@
 .timeline{
   padding-left: 3em;
   font-size:1em;
+  width: 70%;
+  word-spacing:0.3em;
 }
